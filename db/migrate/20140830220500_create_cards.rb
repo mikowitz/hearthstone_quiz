@@ -3,7 +3,7 @@ class CreateCards < ActiveRecord::Migration
     create_table :cards do |t|
       t.string :name
       t.integer :cost
-      t.integer :type
+      t.integer :card_type
       t.integer :rarity
       t.integer :faction
       t.integer :race

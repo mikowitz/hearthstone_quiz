@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20140830221912) do
   create_table "cards", force: true do |t|
     t.string   "name"
     t.integer  "cost"
-    t.integer  "type"
+    t.integer  "card_type"
     t.integer  "rarity"
     t.integer  "faction"
     t.integer  "race"
